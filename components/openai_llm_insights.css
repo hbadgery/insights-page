@@ -1,0 +1,41 @@
+```css
+#openai-llm-insights {
+    background-color: #1a202c;
+    color: #a0aec0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#openai-llm-insights .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#openai-llm-insights .visual-representation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#openai-llm-insights .interactivity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#openai-llm-insights .interactivity button {
+    background-color: #2d3748;
+    color: #a0aec0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#openai-llm-insights .interactivity button:hover {
+    background-color: #4a5568;
+}
+```

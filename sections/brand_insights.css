@@ -1,0 +1,30 @@
+/* sections/brand_insights.css */
+
+#brand-insights {
+    background-color: #1a202c;
+    color: #a0aec0;
+    padding: 20px;
+}
+
+#brand-insights .summary {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+#brand-insights .graphs-charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#brand-insights .actionable-insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+#brand-insights .actionable-insights .insight-card {
+    background-color: #2d3748;
+    padding: 10px;
+    border-radius: 5px;
+}

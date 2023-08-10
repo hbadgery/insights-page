@@ -1,0 +1,33 @@
+/* components/graphs_charts.css */
+
+.graphs-charts-container {
+  @apply bg-gray-800 p-4 rounded-lg;
+}
+
+.graph-chart {
+  @apply bg-gray-700 p-2 rounded-lg my-2;
+}
+
+.graph-title {
+  @apply text-white text-lg font-semibold;
+}
+
+.graph-description {
+  @apply text-gray-300 text-sm;
+}
+
+.graph-data {
+  @apply bg-gray-600 p-2 rounded-lg mt-2;
+}
+
+.graph-data-item {
+  @apply flex justify-between items-center text-white my-1;
+}
+
+.graph-data-label {
+  @apply text-sm;
+}
+
+.graph-data-value {
+  @apply font-semibold;
+}

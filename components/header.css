@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.header {
+  @apply bg-gray-800 text-white flex justify-between items-center p-5;
+}
+
+#logo {
+  @apply w-12 h-12;
+}
+
+#title {
+  @apply text-2xl font-bold;
+}
+
+#navigation-links {
+  @apply flex space-x-4;
+}
+
+#navigation-links a {
+  @apply text-lg hover:text-gray-300;
+}
+
+#user-profile {
+  @apply flex items-center space-x-2;
+}
+
+#user-profile img {
+  @apply w-8 h-8 rounded-full;
+}
+
+#user-profile span {
+  @apply text-lg;
+}
+
+#logout {
+  @apply text-lg hover:text-red-500;
+}

@@ -1,0 +1,41 @@
+/* Actionable Insights CSS */
+
+.actionable-insights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #1a202c;
+}
+
+.actionable-insights h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.actionable-insights .insight-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: #2d3748;
+  width: 100%;
+  max-width: 800px;
+}
+
+.actionable-insights .insight-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.actionable-insights .insight-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
