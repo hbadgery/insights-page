@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply bg-gray-900 text-white;
+}
+
+#logo {
+    @apply w-16 h-16;
+}
+
+#title {
+    @apply text-4xl font-bold;
+}
+
+#navigation-links {
+    @apply flex space-x-4;
+}
+
+#user-profile {
+    @apply flex items-center space-x-2;
+}
+
+#logout {
+    @apply cursor-pointer;
+}
+
+#brand-insights, #video-insights, #openai-llm-insights {
+    @apply mt-8;
+}
+
+.summary, .graphs_charts, .actionable_insights, .performance_categories, .clickable_thumbnails, .interactive_elements, .llm_content, .llm_visual_representation, .llm_interactivity {
+    @apply p-4 bg-gray-800 rounded-lg shadow-lg;
+}
+
+.summary {
+    @apply mb-4;
+}
+
+.graphs_charts {
+    @apply mb-4;
+}
+
+.actionable_insights {
+    @apply mb-4;
+}
+
+.performance_categories {
+    @apply mb-4;
+}
+
+.clickable_thumbnails {
+    @apply mb-4;
+}
+
+.interactive_elements {
+    @apply mb-4;
+}
+
+.llm_content {
+    @apply mb-4;
+}
+
+.llm_visual_representation {
+    @apply mb-4;
+}
+
+.llm_interactivity {
+    @apply mb-4;
+}

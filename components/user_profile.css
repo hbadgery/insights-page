@@ -1,0 +1,26 @@
+#user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+#user-profile .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#user-profile .username {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#user-profile .details {
+    margin-left: 1rem;
+    font-size: 0.875rem;
+    color: #718096;
+}

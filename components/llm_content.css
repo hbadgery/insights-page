@@ -1,0 +1,19 @@
+.llm-content {
+  @apply bg-gray-800 text-white p-4 rounded-lg;
+}
+
+.llm-content h2 {
+  @apply text-2xl font-bold mb-2;
+}
+
+.llm-content p {
+  @apply text-base leading-relaxed;
+}
+
+.llm-content ul {
+  @apply list-disc list-inside;
+}
+
+.llm-content li {
+  @apply mb-1;
+}

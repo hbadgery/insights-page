@@ -1,0 +1,46 @@
+.llm-interactivity {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1a202c;
+  color: #a0aec0;
+}
+
+.llm-interactivity .tab {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #2d3748;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.llm-interactivity .tab:hover {
+  background-color: #4a5568;
+}
+
+.llm-interactivity .tab.active {
+  background-color: #4a5568;
+  color: #f7fafc;
+}
+
+.llm-interactivity .toggle-button {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #2d3748;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.llm-interactivity .toggle-button:hover {
+  background-color: #4a5568;
+}
+
+.llm-interactivity .toggle-button.active {
+  background-color: #4a5568;
+  color: #f7fafc;
+}

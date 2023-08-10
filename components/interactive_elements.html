@@ -1,0 +1,25 @@
+```html
+<div id="interactive-elements" class="dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+    <h2 class="text-xl font-bold mb-4 text-white">Interactive Elements</h2>
+
+    <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+        <div class="relative">
+            <select id="sort-videos" class="block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                <option>Sort by views</option>
+                <option>Sort by likes</option>
+                <option>Sort by comments</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 12l-6-6h12l-6 6z"/></svg>
+            </div>
+        </div>
+
+        <div class="relative">
+            <input id="filter-videos" class="block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Filter videos">
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 7h-2V4a1 1 0 1 0-2 0v3H7l5 5 5-5z"/></svg>
+            </div>
+        </div>
+    </div>
+</div>
+```
